@@ -1,0 +1,95 @@
+header{
+    font-size: 1em;
+}
+
+ /*navigation section*/
+
+header nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px 20px;
+    font-size: 1em;
+    
+}
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+header nav .nav-right a{
+    color: #444;
+   padding: 5px 10px;
+   margin: 0px 5px;
+   font-size: 1.1em;
+}
+
+
+header nav .nav-left .regiser-login-btn{
+    border: 3px solid;
+    padding: 5px 8px;
+    border-radius: 10px;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+header nav .nav-left .regiser-login-btn i{
+    margin: 7px;
+    font-size: 1.1em;
+}
+
+header nav .nav-left .regiser-login-btn a{
+    color: #444;
+    margin: 0px 10px;
+    font-size: 0.9em;
+}
+    
+/*slider section*/
+
+
+.slider{
+ position: relative;
+ font-size: 1em;
+}
+.slider .slides{
+
+}
+
+.slider .slides .item{
+ position: relative;
+ display: none;
+}
+.slider .slides .active{
+ display: block;
+ animation-name: fadein;
+ animation-duration: 1s;
+}
+.slider .slides .item img{
+ width: 100%;
+}
+.slider .slides .item span{
+ position: absolute;
+right: 8%;
+top: 45%;
+color: white;
+font-size: 1.5em;
+}
+
+.slider .botton{
+ position: absolute;
+ bottom: 30px;
+ left: 40px;
+ 
+ z-index: 1;
+}
+
+.slider .botton i{
+    color: rgb(207, 203, 203);
+    margin-right: 5px;
+    cursor: pointer;
+}
+.slider .botton i:hover{
+    color: #444;
+}
+.slider .slides .item span .de{
+}
